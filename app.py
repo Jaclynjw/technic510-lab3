@@ -11,11 +11,6 @@ DB_NAME = os.environ.get("DB_NAME")
 DB_USER = os.environ.get("DB_USER")
 DB_PASS = os.environ.get("DB_PASS")
 
-DB_HOST = "techin510.postgres.database.azure.com"
-DB_NAME = "postgres"
-DB_USER = "jaclyn"
-DB_PASS = "Asdf1234*"
-
 # Add custom styles to make buttons wider
 st.markdown(
     """
