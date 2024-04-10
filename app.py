@@ -32,7 +32,7 @@ st.markdown(
 
 # Function to connect to the database
 def get_db_connection():
-    conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, host=DB_HOST, password=DB_PASS, sslmode='require')
+    conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, host=DB_HOST, password=DB_PASS, sslmode='prefer')
     return conn
 
 # Function to initialize the database
